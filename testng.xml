@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>   
+      <class name="Quote_Policy.Policy_Creation_1"/>
+      <class name="Quote_Policy.Policy_Creation_2"/>
+      <class name="Quote_Policy.Policy_Creation_3"/>
+      <class name="Quote_Policy.Policy_Creation_4"/>
+      <class name="Quote_Policy.Policy_Creation_5"/>
+      <class name="Quote_Policy.Policy_Creation_6"/>      
+       
+      <class name="Quote_Policy_2.Policy_Creation_1"/>
+      <class name="Quote_Policy_2.Policy_Creation_2"/>
+      <class name="Quote_Policy_2.Policy_Creation_3"/>
+      <class name="Quote_Policy_2.Policy_Creation_4"/>
+      <class name="Quote_Policy_2.Policy_Creation_5"/> 
+      <class name="Quote_Policy_2.Policy_Creation_6"/> 
+             
+      <class name="Quote_Policy_3.Policy_Creation_1"/>
+      <class name="Quote_Policy_3.Policy_Creation_2"/>
+      <class name="Quote_Policy_3.Policy_Creation_3"/>
+      <class name="Quote_Policy_3.Policy_Creation_4"/>
+      <class name="Quote_Policy_3.Policy_Creation_5"/>
+      <class name="Quote_Policy_3.Policy_Creation_6"/> 
+         
+      <class name="Quote_Policy_4.Policy_Creation_1"/>
+      <class name="Quote_Policy_4.Policy_Creation_2"/> 
+      <class name="Quote_Policy_4.Policy_Creation_3"/>
+      <class name="Quote_Policy_4.Policy_Creation_4"/>
+      <class name="Quote_Policy_4.Policy_Creation_5"/>
+      <class name="Quote_Policy_4.Policy_Creation_6"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
