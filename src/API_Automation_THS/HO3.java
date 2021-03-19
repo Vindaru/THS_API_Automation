@@ -74,7 +74,7 @@ System.out.println("============================================================
 		  String Password =                                                          HO3_ExcelUtils.getCellData(a, 39);
 		 
    
-	     RestAssured.baseURI = API_Constants;
+	     RestAssured.baseURI = API_Constants.API_KEY_UAT;
                  Response response=
 		  given()
 		       .header("Content","text/xml")
@@ -82,7 +82,7 @@ System.out.println("============================================================
 	               .body("<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:v2=\"http://www.thig.com/webservices/policy/external/v2\">\r\n" + 
 	               	"   <soapenv:Header>\r\n" + 
 	               	"      <v2:RequestHeader>\r\n" + 
-	               	"         <v2:ApiKey>"+API_Constants+"</v2:ApiKey>\r\n" + 	               
+	               	"         <v2:ApiKey>"+API_Constants.API_KEY_UAT+"</v2:ApiKey>\r\n" + 	               
 	               	"      </v2:RequestHeader>\r\n" + 
 	               	"   </soapenv:Header>\r\n" + 
 	               	"   <soapenv:Body>\r\n" + 

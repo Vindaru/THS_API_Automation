@@ -68,7 +68,7 @@ System.out.println("============================================================
 		  
 		
 		
-	      RestAssured.baseURI = API_Constants.URL_API_PROD;
+	      RestAssured.baseURI = API_Constants.API_KEY_UAT;
 //	      RestAssured.baseURI = "https://policy-ws.uat.thig.com"; API_Constants
 	      log.info("GO TO    --    "  +baseURI);
                  Response response=
@@ -78,7 +78,7 @@ System.out.println("============================================================
 	               .body("<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:v2=\"http://www.thig.com/webservices/policy/external/v2\">\r\n" + 
 	               	"   <soapenv:Header>\r\n" + 
 	               	"      <v2:RequestHeader>\r\n" + 
-	               	"         <v2:ApiKey>"+API_Constants.APIKEY_PROD_W_INSCORE+"</v2:ApiKey>     \r\n" + 
+	               	"         <v2:ApiKey>"+API_Constants.API_KEY_UAT+"</v2:ApiKey>     \r\n" + 
 	               	"      </v2:RequestHeader>\r\n" + 
 	               	"   </soapenv:Header>\r\n" + 
 	               	"   <soapenv:Body>\r\n" + 
